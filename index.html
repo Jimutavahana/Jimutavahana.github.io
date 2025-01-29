@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        :root {
+            --background: #0a192f;  /* Dark navy blue */
+            --text: #e6f1ff;        /* Off-white */
+            --accent: #64ffda;      /* Terminal green */
+        }
+
+        body {
+            font-family: 'Times New Roman', serif;
+            font-size: 11pt;
+            line-height: 1.4;
+            color: var(--text);
+            background-color: var(--background);
+            margin: 2rem;
+            text-align: justify;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Edwardian Script ITC', 'Bookman Old Style', serif;
+            font-weight: normal;
+            border-bottom: 1px solid var(--accent);
+            padding-bottom: 0.5rem;
+        }
+
+        .numbers {
+            font-family: 'Cambria Math', 'Times New Roman', serif;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            right: 0;
+            padding: 1rem;
+            background: rgba(10, 25, 47, 0.9);
+        }
+
+        nav a {
+            color: var(--accent);
+            text-decoration: none;
+            margin-left: 1.5rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin: 3rem 0;
+            padding: 1.5rem;
+            border-left: 3px solid var(--accent);
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ::selection {
+            background: var(--accent);
+            color: var(--background);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#bio">Biography</a>
+        <a href="#education">Education</a>
+        <a href="#work">Work</a>
+        <a href="#projects">Projects</a>
+        <a href="#research">Tinkerings</a>
+    </nav>
+
+    <h1>Smit Swapnesh Mehta</h1>
+
+    <section id="bio">
+        <h2>Bio</h2>
+        <p>[Your biography here...]</p>
+        <p>Contact: <a href="smitsmehta@gmail.com">smitsmehta@gmail.com</a></p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p><span class="numbers">2019 - 2025</span> | Bachelor's Degree in Mechatronic Systems Engineering</p>
+        <p>Dean's Honor Roll | Relevant Coursework: [...]</p>
+    </section>
+
+    <section id="work">
+        <h2>Work Experience</h2>
+        <p><span class="numbers">2022-Present</span> | Software Engineer at XYZ Corp</p>
+        <p><span class="numbers">2020-2022</span> | Intern at ABC Tech</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <h3>Project 1</h3>
+        <p><span class="numbers">2023</span> | Machine Learning Framework</p>
+        
+        <h3>Project 2</h3>
+        <p><span class="numbers">2022</span> | Web Development Toolkit</p>
+    </section>
+
+    <section id="research">
+        <h2>Research</h2>
+        <p><span class="numbers">2021</span> | Published paper on [...]</p>
+        <p><span class="numbers">2020</span> | Conference presentation about [...]</p>
+    </section>
+
+    <footer style="margin-top: 5rem; text-align: center;">
+        <p>&copy; <span class="numbers">2023</span> John Doe</p>
+    </footer>
+</body>
+</html>
